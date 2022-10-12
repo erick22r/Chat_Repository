@@ -1,7 +1,7 @@
 __author__ = 'Erick Cruz - 02/08/2022'
 
 from dataclasses import replace
-import locale
+# import locale
 from datetime import date, datetime, timedelta
 import json
 from flask import Flask, jsonify, request
@@ -9,7 +9,7 @@ import pymongo
 import requests
 
 # setar locale para português
-locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
+# locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
 app = Flask(__name__)
 
